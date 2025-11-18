@@ -1,3 +1,12 @@
+// ...existing code...
+import React from 'react';
+import { Button } from '../common-componentes/button/button';
+
 export function Search() {
-	return <div>Hello, tela de busca!</div>;
+    return (
+        <div>
+            <Button ghost>Buscar</Button>
+        </div>
+    );
 }
+// ...existing code...
