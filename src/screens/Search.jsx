@@ -1,12 +1,11 @@
-// ...existing code...
-import React from 'react';
 import { Button } from '../common-componentes/button/button';
+import { Header } from '../common-componentes/Header/Header';
 
 export function Search() {
-    return (
-        <div>
-            <Button ghost>Buscar</Button>
-        </div>
-    );
+	return (
+		<div>
+			<Header />
+			<Button ghost={true}>Buscar</Button>
+		</div>
+	);
 }
-// ...existing code...
