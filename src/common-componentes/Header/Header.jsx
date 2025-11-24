@@ -1,6 +1,7 @@
 import styled from "styled-components";
 import { Colors, Spaces } from "../../shared/DesignTokens";
 import rateTheHeroLogo from "../../assets/icons/rate-the-hero-logo.svg";
+import { SearchField } from "../SearchField/SearchField";
 const Wrapper = styled.header`
   width: 100%;
   height: 60px;

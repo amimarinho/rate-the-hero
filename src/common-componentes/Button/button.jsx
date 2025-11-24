@@ -9,12 +9,12 @@ import {
   FontFamilies,
   FontWeights,
   FontSizes,
-} from '../../Shared/DesignTokens';
+} from '../../shared/DesignTokens';
 
 export const Button = styled.button`
 	border: none;
 	outline: none;
-	width: 100%;
+	width: 94px;
 	height: 40px;
 	font-family: ${FontFamilies.PRIMARY};
 	font-weight: ${FontWeights.BOLD};
