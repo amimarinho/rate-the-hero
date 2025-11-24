@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import { Colors, Spaces } from "../../shared/DesignTokens";
-import rateTheHeroLogo from "../../assets/icons/rate-the-hero-logo.png";
+import rateTheHeroLogo from "../../assets/icons/rate-the-hero-logo.svg";
 const Wrapper = styled.header`
   width: 100%;
   height: 60px;
