@@ -22,7 +22,6 @@ const Logo = styled.img.attrs({
 export function Header() {
   return (
     <Wrapper>
-      twasgyyast
       <Logo />
     </Wrapper>
   );
