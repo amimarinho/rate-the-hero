@@ -1,4 +1,4 @@
-import { Button } from "../common-components/Button/Button.jsx";
+import { Button } from "../common-componentes/Button/Button.jsx";
 
 export function Search() {
   return (
