@@ -1,4 +1,6 @@
+import { Alert } from "../common-componentes/Alert/Alert";
 import { Button } from "../common-componentes/Button/Button";
+import { ButtonLink } from "../common-componentes/ButtonLink/ButtonLink";
 import { Caption } from "../common-componentes/Caption/Caption";
 import { Card } from "../common-componentes/Card/Card";
 import { Description } from "../common-componentes/Description/Description";
@@ -6,7 +8,12 @@ import { Header } from "../common-componentes/Header/Header";
 import { HeadingOne } from "../common-componentes/HeadingOne/HeadingOne";
 import { HeadingTwo } from "../common-componentes/HeadingTwo/HeadingTwo";
 import { SearchField } from "../common-componentes/SearchField/SearchField";
+import {
+  SelectField,
+  Option,
+} from "../common-componentes/SelectField/SelectField";
 import { Subtitle } from "../common-componentes/Subtitle/Subtitle";
+
 export function Search() {
   return (
     <div>
@@ -24,6 +31,11 @@ export function Search() {
           <Caption>Caption</Caption>
         </div>
       </Card>
+      <ButtonLink>Ver Mais</ButtonLink>
+      <SelectField placeholder="Nota">
+        <Option>Opção 1</Option>
+      </SelectField>
+	  <Alert></Alert>
     </div>
   );
 }
