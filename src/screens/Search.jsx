@@ -8,10 +8,7 @@ import { Header } from "../common-componentes/Header/Header";
 import { HeadingOne } from "../common-componentes/HeadingOne/HeadingOne";
 import { HeadingTwo } from "../common-componentes/HeadingTwo/HeadingTwo";
 import { SearchField } from "../common-componentes/SearchField/SearchField";
-import {
-  SelectField,
-  Option,
-} from "../common-componentes/SelectField/SelectField";
+
 import { Subtitle } from "../common-componentes/Subtitle/Subtitle";
 
 export function Search() {
@@ -35,7 +32,9 @@ export function Search() {
       <SelectField placeholder="Nota">
         <Option>Opção 1</Option>
       </SelectField>
-	  <Alert></Alert>
+	  <Alert type= "info">Nenhum herói ou heroína encontrado</Alert>
+	  <Alert type= "success" small={true}>Avaliação atribuída com sucesso!</Alert>
+	  <Alert type= "error" small={true}>Ocorreu um erro ao avaliar</Alert>
     </div>
   );
 }
